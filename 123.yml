@@ -1,5 +1,5 @@
-- hosts: all
-  remote_user: root
+- hosts: localhost
+  remote_user: local
   tasks:
   - name: Installing Docker images
     shell:
