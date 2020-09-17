@@ -1,0 +1,5 @@
+- hosts: webserver
+  tasks:
+  - name: Installing Docker images
+    shell:
+       cmd: docker build /docker/ -t dockerfile
