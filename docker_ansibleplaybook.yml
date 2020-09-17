@@ -1,0 +1,6 @@
+- hosts: all
+  remote_user: root
+  tasks:
+  - name: Installing Docker images
+    shell:
+       cmd: docker build /ansible/ -t hitech
