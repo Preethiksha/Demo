@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: local
   remote_user: localhost
   tasks:
   - name: Installing Docker images
