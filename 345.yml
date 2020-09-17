@@ -1,4 +1,4 @@
-- hosts: local
+- hosts: all
   
   tasks:
   - name: Installing Docker images
