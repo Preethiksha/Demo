@@ -1,6 +1,0 @@
-- hosts: localhost
-  remote_user: local
-  tasks:
-  - name: Installing Docker images
-    shell:
-       cmd: docker build /ansible/ -t dockerfile
